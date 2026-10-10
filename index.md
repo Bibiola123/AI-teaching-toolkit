@@ -13,11 +13,11 @@ Welcome to the **AI Teaching Toolkit**—a practical, discipline-neutral resourc
 Rather than relying on static essay assessments or generic prompts, these tools focus on cognitive process evaluation, Socratic guidance, and robust skill-building.
 
 ## Available Tool Recipes
-1. [Automated Rubric Extractor](./rubric-extractor.md)
-2. [Socratic Student Tutor Bot](./socratic-tutor.md)
-3. [Adversarial Counterpart (Stress & Bias Tester)](./adversarial-counterpart.md)
-4. [Cognitive Process Evaluator](./process-evaluator.md)
-5. [Authentic Scenario & Case Generator](./scenario-generator.md)
+1. [Automated Rubric Extractor](rubric-extractor)
+2. [Socratic Student Tutor Bot](socratic-tutor)
+3. [Adversarial Counterpart (Stress & Bias Tester)](adversarial-counterpart)
+4. [Cognitive Process Evaluator](process-evaluator)
+5. [Authentic Scenario & Case Generator](scenario-generator)
 
 ---
 *Built with GitHub Pages and Just the Docs.*
