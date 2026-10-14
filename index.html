@@ -1,0 +1,88 @@
+---
+layout: null
+title: AI Teaching Toolkit
+permalink: /
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Practical, discipline-neutral AI teaching tools designed to build reasoning, reflection, and real-world skills.">
+  <title>AI Teaching Toolkit</title>
+  <link rel="stylesheet" href="{{ '/assets/css/toolkit-home.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="{{ '/' | relative_url }}">AI Teaching Toolkit</a>
+      <nav aria-label="Main navigation" class="main-nav">
+        <a class="active" href="{{ '/' | relative_url }}" aria-current="page">Home</a>
+        <a href="#tools">Toolkit</a>
+        <a href="#benefits">About</a>
+        <a href="#footer">Contact</a>
+      </nav>
+      <a class="nav-pill" href="#tools" aria-label="Browse tools">⌕</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-visual" aria-hidden="true"></div>
+      <div class="hero-tint" aria-hidden="true"></div>
+      <div class="wrap hero-content">
+        <div class="eyebrow"><span class="short-line"></span> PRACTICAL AI TOOLS FOR EDUCATORS</div>
+        <h1 id="hero-title">AI Teaching Toolkit</h1>
+        <p>Practical, discipline-neutral resources to help educators integrate interactive AI tools into their courses.</p>
+        <a class="hero-button" href="#tools">Explore the toolkit <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section id="tools" class="tools-section wrap" aria-labelledby="tools-heading">
+      <div class="section-heading">
+        <span class="section-line" aria-hidden="true"></span>
+        <div>
+          <h2 id="tools-heading">Available Tool Recipes</h2>
+          <p>Move beyond generic prompts with practical tools that support reasoning, guided learning, and meaningful skill-building.</p>
+        </div>
+      </div>
+      <div class="tool-grid">
+        <a class="tool-card" href="{{ '/rubric-extractor.html' | relative_url }}">
+          <img src="{{ '/assets/images/tool-1.png' | relative_url }}" alt="Assessment rubric on paper" loading="lazy">
+          <div class="card-copy"><h3>Rubric Evidence Extractor</h3><p>Locate evidence in student work against an existing rubric while leaving final grading decisions to the educator.</p><span class="card-link">Learn more <span aria-hidden="true">→</span></span></div>
+        </a>
+        <a class="tool-card" href="{{ '/socratic-tutor.html' | relative_url }}">
+          <img src="{{ '/assets/images/tool-2.png' | relative_url }}" alt="Friendly AI assistant with conversation bubbles" loading="lazy">
+          <div class="card-copy"><h3>Socratic Student Tutor Bot</h3><p>Encourage deeper thinking through guided questions, limited hints, and meaningful conversations.</p><span class="card-link">Learn more <span aria-hidden="true">→</span></span></div>
+        </a>
+        <a class="tool-card" href="{{ '/adversarial-counterpart.html' | relative_url }}">
+          <img src="{{ '/assets/images/tool-3.png' | relative_url }}" alt="Thoughtful learner considering opposing ideas" loading="lazy">
+          <div class="card-copy"><h3>Adversarial Counterpart</h3><p>Practice defending ideas and responding to a skeptical stakeholder using evidence and sound reasoning.</p><span class="card-link">Learn more <span aria-hidden="true">→</span></span></div>
+        </a>
+        <a class="tool-card" href="{{ '/process-evaluator.html' | relative_url }}">
+          <img src="{{ '/assets/images/tool-4.png' | relative_url }}" alt="Learner reflecting on a complex problem" loading="lazy">
+          <div class="card-copy"><h3>Reasoning Mirror</h3><p>Help learners examine their thinking, assumptions, and unexplored alternatives without grading conclusions.</p><span class="card-link">Learn more <span aria-hidden="true">→</span></span></div>
+        </a>
+        <a class="tool-card" href="{{ '/scenario-generator.html' | relative_url }}">
+          <img src="{{ '/assets/images/tool-5.png' | relative_url }}" alt="Students collaborating around a laptop" loading="lazy">
+          <div class="card-copy"><h3>Scenario &amp; Distortion Generator</h3><p>Create realistic cases with hidden issues that invite students to apply judgment and analysis.</p><span class="card-link">Learn more <span aria-hidden="true">→</span></span></div>
+        </a>
+        <a class="tool-card" href="{{ '/consequence-engine.html' | relative_url }}">
+          <img src="{{ '/assets/images/tool-6.png' | relative_url }}" alt="Notebook with learning checklist" loading="lazy">
+          <div class="card-copy"><h3>Consequence Engine</h3><p>Explore what could happen after a decision, including second-order effects and uncertainty.</p><span class="card-link">Learn more <span aria-hidden="true">→</span></span></div>
+        </a>
+      </div>
+      <p class="tools-note">Looking for a place to start? Choose a tool above to read its setup instructions, classroom example, and copyable prompt.</p>
+    </section>
+
+    <section id="benefits" class="benefits" aria-label="Why use the toolkit">
+      <div class="wrap benefit-grid">
+        <div><span class="benefit-icon" aria-hidden="true">◎</span><div><strong>Discipline-neutral</strong><p>Adaptable across subject areas and course levels.</p></div></div>
+        <div><span class="benefit-icon" aria-hidden="true">✧</span><div><strong>Build essential skills</strong><p>Focus on reasoning, critical thinking, and application.</p></div></div>
+        <div><span class="benefit-icon" aria-hidden="true">▥</span><div><strong>Ready to explore</strong><p>Practical recipes with examples and reusable prompts.</p></div></div>
+      </div>
+    </section>
+  </main>
+  <footer id="footer" class="site-footer wrap"><span>© {{ 'now' | date: '%Y' }} AI Teaching Toolkit</span><span>Built with GitHub Pages · <a href="{{ '/' | relative_url }}">Home</a></span></footer>
+</body>
+</html>

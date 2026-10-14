@@ -1,0 +1,17 @@
+AI Teaching Toolkit homepage files — GitHub Pages (Deploy from a branch)
+
+1. Save a copy of your existing index.md (backup).
+2. REMOVE or RENAME index.md from the repository root. Do not leave both index.md and index.html as competing homepage files.
+3. Copy the provided index.html to the repository root.
+4. Copy assets/css/toolkit-home.css and all assets/images/* into the matching paths in your repository.
+5. Do not change your existing _config.yml or your tool Markdown files for this first step.
+6. Commit and push the changes to the branch used by Settings > Pages > Deploy from a branch (usually main, root).
+7. Wait for GitHub Pages to publish; visit your project site's root.
+
+NOTES:
+- This homepage is intentionally independent from your existing Jekyll theme; each tool page stays unchanged for now.
+- The links use Jekyll's relative_url filter and your existing baseurl configuration.
+- The six cards link to six existing tool pages. The original mockup's sixth "Toolkit Guide" was replaced by the already-created Consequence Engine so none of those six tool links is a placeholder.
+- The visual images are cropped from the design mockup and are illustrative; if you prefer different photos, replace the files in assets/images/.
+- The Contact navigation link currently points to the footer, not a contact form. You can update it when you have a contact page or email address.
+- The source Markdown uses different tool titles than the earlier rough visual mockup. This homepage reflects the actual tool files you supplied.
