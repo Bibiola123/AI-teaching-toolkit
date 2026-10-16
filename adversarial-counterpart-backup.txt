@@ -43,7 +43,7 @@ Use the Claude Project below to begin a simulated stakeholder interaction.
 
 [Launch Adversarial Counterpart](PASTE-CLAUDE-PROJECT-LINK-HERE)
 
-## Example
+## Example 
 
 An accounting instructor could configure the AI as a skeptical CFO considering a proposed automation project.
 
